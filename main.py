@@ -6,7 +6,7 @@ class TestUrbanRoutes:
         if helpers.is_url_reachable(data.URBAN_ROUTES_URL):
            print ('Conectado al servidor de Urban Routes')
         else:
-            print ('No se puede conectar a Urban Routes, verifica que el servidor esté encendido')
+            print ('No se puede conectar a Urban Routes, verifica que el servidor esté encendido.')
     def test_set_route (self):
         # Agregar en S9
         pass
@@ -19,7 +19,7 @@ class TestUrbanRoutes:
     def test_fill_card (self):
         # Agregar en S9
         pass
-    def test_comment_for_driver (selg):
+    def test_comment_for_driver (self):
         # Agregar en S9
         pass
     def test_order_blanket_and_handkerchiefs (self):
